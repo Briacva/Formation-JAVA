@@ -1,0 +1,117 @@
+body{
+    background-color: #FBF8F1 ;
+}
+
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#acc, #univers, #ctc, #boutton, #roue{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2.5em;  
+}
+
+#nav{
+    background-color: #FBF8F1;
+}
+
+h2{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+#vagueForm{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+#carteVagues{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: #ffffff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+li{
+    list-style-type: none;
+}
+
+p, li{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.popupText{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+
+#logoSalut{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-bottom: 2em;
+}
+
+#envoyer{
+    float: right;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: #54BAB9;
+    border-color: #54BAB9;
+    border-radius: 2em;
+}
+
+#date{
+    font-size: 150%;
+    margin-right: 5%;
+}
+
+input[type="submit"]#envoyer:hover {
+    background-color: #81C3C9;
+}
+
+.nuit {
+    background-color: #112F41;
+    color: #ffffff;
+}
+
+.nuit button {
+    color: black;
+}
+

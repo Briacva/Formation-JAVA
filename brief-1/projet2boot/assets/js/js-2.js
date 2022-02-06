@@ -1,12 +1,3 @@
-$("#modeNuit").click(function () {
-    if ($("body").hasClass("nuit")) {
-        $("body").removeClass("nuit");
-    }
-    else {
-        $("body").addClass("nuit");
-    }
-});
-
 function data() {
 
     var Prenom = document.getElementById("Prenom").value;
