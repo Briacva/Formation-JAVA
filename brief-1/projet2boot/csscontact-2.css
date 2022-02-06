@@ -1,0 +1,99 @@
+body{
+background-color: #FBF8F1 ;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-evenly;
+}
+
+#acc, #univers, #ctc, #boutton, #roue{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2.5em;  
+}
+
+#nav{
+    background-color: #FBF8F1;
+}
+
+h1{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+#vagueForm{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+fieldset{
+    background-color: white;
+    padding-top: 2em;
+    margin-top: 2.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #54BAB9;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+.boite{
+    background-color: #FBF8F1;
+    border-radius: 2em;
+    border: 0;
+}
+
+.textBox{
+    background-color: #FBF8F1;
+    border: 0;
+    padding-bottom: 10em;
+    width: 50%;
+    height: 30%;
+}
+
+#envoyer{
+    float: right;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: #54BAB9;
+    border-color: #54BAB9;
+    border-radius: 2em;
+}
+
+input[type="submit"]#envoyer:hover {
+    background-color: #81C3C9;
+}
+
+.nuit {
+    background-color: #112F41;
+    color: #ffffff;
+}
+  
+.nuit button {
+    color: black;
+}
+
