@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css-2.css">
+    <link rel="stylesheet" href="assets/css/cssaccueil-2.css">
 
     <title>Universurf</title>
 
@@ -20,12 +20,17 @@
 
 <body>
 
-    <div class="h-100">
+    <!-- Conteneur global de la page pour le landing page -->
+
+    <div class="h-100" id="conteneurGlobal">
+
+        <!-- Navbar -->
+
         <div id="row1">
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid h-100" id="nav">
                     <a class="navbar-brand">
-                        <img src="pics/Universurf-2.png" alt="Logo" id="logo" class="logo-universurf">
+                        <img src="assets/img/Universurf-2.png" alt="Logo" id="logo" class="logo-universurf">
                     </a>
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
@@ -59,56 +64,64 @@
                 </div>
             </nav>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="3000"
-            id="row2">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
+
+        <!-- Carousel -->
+
+        <div id="row2">
+            <div id="carouselExampleIndicators" class="carousel slide mb-2 h-70" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner" id="carousel">
+                    <div class="carousel-item active">
+                        <img src="assets/img/v.jpg" class="d-block w-100" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/w.jpg" class="d-block w-100" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/x.jpg" class="d-block w-100" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/z.jpg" class="d-block w-100" alt="Fourth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/y.jpg" class="d-block w-100" alt="Fifth slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <br>
             </div>
-            <div class="carousel-inner" id="carousel">
-                <div class="carousel-item active">
-                    <img src="pics/v.jpg" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="pics/w.jpg" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="pics/x.jpg" class="d-block w-100" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="pics/z.jpg" class="d-block w-100" alt="Fourth slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="pics/y.jpg" class="d-block w-100" alt="Fifth slide">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <br>
         </div>
-        <div id="row3">
-            <h2 class="mb-3">Nos partenaires</h2>
+
+        <!-- Partenaires -->
+
+        <div id="row3" class="mh-20">
+            <h2 class="h-5">Nos partenaires</h2>
             <div id="logoPartenaires">
-                <img src="pics/National.png" class="logo-partners" alt="Part1">
-                <img src="pics/Billabong.png" class="logo-partners" alt="Part2">
-                <img src="pics/Oxbow.png" class="logo-partners" alt="Part3">
-                <img src="pics/Riding.png" class="logo-partners" alt="Part4">
+                <img src="assets/img/National.png" class="logo-partners" alt="Part1">
+                <img src="assets/img/Billabong.png" class="logo-partners" alt="Part2">
+                <img src="assets/img/Oxbow.png" class="logo-partners" alt="Part3">
+                <img src="assets/img/Riding.png" class="logo-partners" alt="Part4">
             </div>
         </div>
     </div>
@@ -119,6 +132,6 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
-<script type="text/javascript" src="js-2.js"></script>
+<script type="text/javascript" src="assets/js/js-2.js"></script>
 
 </html>

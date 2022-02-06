@@ -1,5 +1,21 @@
-body{
-background-color: #FBF8F1 ;
+/* navbar */
+
+#row1{
+    margin: 0;
+    padding: 0;
+    background-color: #FBF8F1;
+}
+.navbar {
+    height: 10vh;
+}
+
+#nav{
+    background-color: #FBF8F1;
+}
+
+.logo-universurf {
+    width: 100%;
+    height: 4em;
 }
 
 .navbar-nav,
@@ -13,12 +29,16 @@ justify-content: space-evenly;
 #acc, #univers, #ctc, #boutton, #roue{
     color: #54BAB9;
     font-family: 'Oswald', sans-serif;    
-    font-size: 2.5em;  
+    font-size: 2em;  
 }
 
-#nav{
-    background-color: #FBF8F1;
+/* body */
+
+body{
+background-color: #FBF8F1 ;
 }
+
+/* formulaire */
 
 h1{
     color: #54BAB9;
@@ -39,7 +59,7 @@ h1{
 fieldset{
     background-color: #ffffff;
     padding-top: 2em;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     margin-left: 4em;
     margin-right: 4em;
     margin-bottom: 3em;
@@ -52,12 +72,7 @@ p{
     text-align: center;
 }
 
-.popupText{
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-size: 1.5em;
-    text-align: center;
-}
+
 
 input{
     font-family: 'Open Sans', sans-serif;
@@ -79,13 +94,6 @@ input{
     height: 30%;
 }
 
-#logoSalut{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-    margin-bottom: 2em;
-}
 
 #envoyer{
     float: right;
@@ -103,12 +111,19 @@ input[type="submit"]#envoyer:hover {
     background-color: #81C3C9;
 }
 
-.nuit {
-    background-color: #112F41;
-    color: #ffffff;
-}
-  
-.nuit button {
+/* popup */
+
+.popupText{
+    font-family: 'Open Sans', sans-serif;
     color: black;
+    font-size: 1.5em;
+    text-align: center;
 }
 
+#logoSalut{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    margin-bottom: 2em;
+}
