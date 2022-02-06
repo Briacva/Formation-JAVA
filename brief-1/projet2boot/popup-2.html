@@ -59,40 +59,18 @@
         </nav>
     </div>
 
-    <form action="popup-2.html">
+    <fieldset>
+        <h1>Formulaire de contact</h1>
+        <div> <img src="pics/vague.png" alt="Vague" id="vagueForm" />
+        </div>
+        <p class="popupText">Merci pour votre message.</p>
+        <br>
+        <p class="popupText">Nous y répondrons dans les plus brefs délais.</p>
+        <img src="pics/salut.gif" id="logoSalut"/>
+    </fieldset>
 
-        <fieldset>
-            <h1>Formulaire de contact</h1>
-            <div> <img src="pics/vague.png" alt="Vague" id="vagueForm" />
-            </div>
-            <div class="cadre1">
-                <p class="prenom">Prénom : <input id="Prenom" type="text" class="boite" required></p>
-                <p class="nom">Nom : <input id="Nom" type="text" style="text-transform: uppercase;" class="boite"
-                        required></p>
-                <p class="adressem">Adresse Mail : <input id="Adresse-mail" type="email" class="boite" required></p>
-                <P class="numeros">Numéro de téléphone: <input id="NumeroTel" type="text" class="boite"
-                        onkeypress="digits(event)" pattern="[0-9]{10}" maxlength="10" size="10">
-                </P>
-                <p class="adressep">Adresse postale : <input id="Adresse-postale" type="text" class="boite" required>
-                </p>
-                <p class="code">Code postal : <input id="Code-postal" type='text' class="boite"
-                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
-                        pattern="[0-9]{5}" placeholder="00000" maxlength="5" size="6" required></p>
-                <p class="ville">Ville : <input id="Ville" type="text" class="boite" required></p>
-                <p class="sexe">Objet du message : <select id="objetMessage" class="boite" required>
-                        <option selected disabled hidden></option>
-                        <option value="Suggestion">Suggestion</option>
-                        <option value="Demande">Demande</option>
-                    </select></p>
-                <p class="prenom">Message : <input id="message" type="text" class="textBox" required></p>
-            </div>
-
-            <input type="submit" id="envoyer" class="div2" onclick="data()">
-        </fieldset>
-
-        <script type="text/javascript" src="js-2.js"></script>
+    <script type="text/javascript" src="js-2.js"></script>
     </form>
-
 
 </body>
 
