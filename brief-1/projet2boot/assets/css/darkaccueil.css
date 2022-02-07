@@ -15,8 +15,8 @@ justify-content: space-evenly;
 background-color: #003638;
 }
 
-#acc, #univers, #ctc, #boutton, #roue{
-    color: #00595c;
+#acc, #univers, #ctc, .boutton, #roue{
+    color: #00797d;
     font-family: 'Oswald', sans-serif;    
     font-size: 2em;  
 }
@@ -40,7 +40,7 @@ background-color: #003638;
 /* Partenaires */
 
 h2{
-    color: #00595c;
+    color: #00797d;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -54,6 +54,6 @@ h2{
     margin-left: 1em;
     margin-right: 1em;
     max-width: 100%;
-    height: auto;
+    height: auto; 
 }
 

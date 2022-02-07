@@ -46,7 +46,7 @@ function digits(chiffres) {
     }
 }
 
-function toggleTheme() {
+function toggleThemeAccueil() {
     // Obtains an array of all <link>
     // elements.
     // Select your element using indexing.
@@ -55,8 +55,23 @@ function toggleTheme() {
     // Change the value of href attribute
     // to change the css sheet.
     if (theme.getAttribute("href") == "assets/css/cssaccueil-2.css") {
-      theme.setAttribute("href", "assets/css/dark.css");
+      theme.setAttribute("href", "assets/css/darkaccueil.css");
     } else {
       theme.setAttribute("href", "assets/css/cssaccueil-2.css");
+    }
+  }
+
+  function toggleThemeContact() {
+    // Obtains an array of all <link>
+    // elements.
+    // Select your element using indexing.
+    var theme = document.getElementById("light");
+  
+    // Change the value of href attribute
+    // to change the css sheet.
+    if (theme.getAttribute("href") == "assets/css/csscontact-2.css") {
+      theme.setAttribute("href", "assets/css/darkcontact.css");
+    } else {
+      theme.setAttribute("href", "assets/css/csscontact-2.css");
     }
   }
