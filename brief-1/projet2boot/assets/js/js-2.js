@@ -45,3 +45,18 @@ function digits(chiffres) {
         if (Zevent.preventDefault) Zevent.preventDefault();
     }
 }
+
+function toggleTheme() {
+    // Obtains an array of all <link>
+    // elements.
+    // Select your element using indexing.
+    var theme = document.getElementById("light");
+  
+    // Change the value of href attribute
+    // to change the css sheet.
+    if (theme.getAttribute("href") == "assets/css/cssaccueil-2.css") {
+      theme.setAttribute("href", "assets/css/dark.css");
+    } else {
+      theme.setAttribute("href", "assets/css/cssaccueil-2.css");
+    }
+  }
