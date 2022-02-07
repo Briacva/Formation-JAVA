@@ -15,7 +15,7 @@ justify-content: space-evenly;
 background-color: #FBF8F1;
 }
 
-#acc, #univers, #ctc, #boutton, #roue{
+#acc, #univers, #ctc, .boutton, #roue{
     color: #54BAB9;
     font-family: 'Oswald', sans-serif;    
     font-size: 2em;  
