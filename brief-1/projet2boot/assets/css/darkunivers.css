@@ -3,7 +3,7 @@
 #row1{
     margin: 0;
     padding: 0;
-    background-color: #FBF8F1;
+    background-color: #003638;
 }
 
 .navbar-nav,
@@ -12,11 +12,11 @@ flex: 1;
 margin: auto !important;
 display: flex;
 justify-content: space-evenly;
-background-color: #FBF8F1;
+background-color: #003638;
 }
 
 #acc, #univers, #ctc, .boutton, #roue{
-    color: #54BAB9;
+    color: #00797d;
     font-family: 'Oswald', sans-serif;    
     font-size: 2em;  
 }
@@ -24,13 +24,13 @@ background-color: #FBF8F1;
 /* body */
 
 body{
-background-color: #FBF8F1 ;
+background-color: #003638 ;
 }
 
 /* Contenu de mes boxs */
 
 h2{
-    color: #54BAB9;
+    color: #00797d;
     font-family: 'Oswald', sans-serif;    
     text-align: center;
     margin-bottom: 0.7em;
@@ -46,8 +46,6 @@ h2{
 
 #carteVagues{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 section{

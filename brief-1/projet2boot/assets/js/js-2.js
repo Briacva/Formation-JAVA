@@ -1,3 +1,5 @@
+// Récupération des données du formulaire contact dans la console
+
 function data() {
 
     var Prenom = document.getElementById("Prenom").value;
@@ -28,6 +30,8 @@ function data() {
     console.log(message);
 }
 
+// Input texte avec de chiffres uniquement
+
 function digits(chiffres) {
     var Zevent = chiffres || window.event;
 
@@ -35,9 +39,9 @@ function digits(chiffres) {
     if (Zevent.type === 'paste') {
         key = Event.clipboardData.getData('text/plain');
     } else {
-        // Handle key press
-        var key = Zevent.keyCode || Zevent.which;
-        key = String.fromCharCode(key);
+    // Handle key press
+      var key = Zevent.keyCode || Zevent.which;
+      key = String.fromCharCode(key);
     }
     var regex = /^\d+$/;
     if (!regex.test(key)) {
@@ -45,6 +49,8 @@ function digits(chiffres) {
         if (Zevent.preventDefault) Zevent.preventDefault();
     }
 }
+
+// Dark mode
 
 function toggleThemeAccueil() {
     // Obtains an array of all <link>
@@ -73,5 +79,20 @@ function toggleThemeAccueil() {
       theme.setAttribute("href", "assets/css/darkcontact.css");
     } else {
       theme.setAttribute("href", "assets/css/csscontact-2.css");
+    }
+  }
+
+  function toggleThemeUnivers() {
+    // Obtains an array of all <link>
+    // elements.
+    // Select your element using indexing.
+    var theme = document.getElementById("light");
+  
+    // Change the value of href attribute
+    // to change the css sheet.
+    if (theme.getAttribute("href") == "assets/css/cssunivers-2.css") {
+      theme.setAttribute("href", "assets/css/darkunivers.css");
+    } else {
+      theme.setAttribute("href", "assets/css/cssunivers-2.css");
     }
   }
