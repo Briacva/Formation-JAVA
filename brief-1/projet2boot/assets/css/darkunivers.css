@@ -21,6 +21,13 @@ background-color: #003638;
     font-size: 2em;  
 }
 
+label{
+    color: #00797d;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;
+      
+}
+
 /* body */
 
 body{
@@ -48,7 +55,7 @@ h2{
     display: block;
 }
 
-section{
+fieldset{
     background-color: #ffffff;
     padding-top: 2em;
     padding-bottom: 2em;

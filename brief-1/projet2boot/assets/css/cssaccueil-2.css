@@ -21,6 +21,13 @@ background-color: #FBF8F1;
     font-size: 2em;  
 }
 
+label{
+    color: #54BAB9;
+    font-family: 'Oswald', sans-serif;    
+    font-size: 2em;
+      
+}
+
 /* Carousel */
 
 #carouselConteneur{
