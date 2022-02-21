@@ -1,0 +1,34 @@
+<!-- Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+[ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+Expected Output :
+60°C is 140 °F
+45°F is 7.222222222222222°C -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degrès</title>
+</head>
+
+<body>
+
+    <form>
+        Température en degrés Celsius : <input type="text" id="temperatureC" /><br>
+        Température en degrés Fahrenheit: <input type="text" id="temperatureF" /><br>
+        <input type="button" onClick="conversion()" Value="Conversion" />
+    </form>
+
+    <p>Conversion des degrés Celsius en Fahrenheit : <br>
+        <span id="result1"></span>
+    </p>
+    <p>Conversion des degrés Fahrenheit en Celsius : <br>
+        <span id="result2"></span>
+    </p>
+    <script src="conversion_21.02.2022.js"></script>
+</body>
+
+</html>
