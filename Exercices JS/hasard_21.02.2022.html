@@ -1,0 +1,28 @@
+<!-- Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched". -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasard</title>
+</head>
+
+
+<body>
+    <script>
+        alert("Choisi un nombre entre 1 et 10");
+        let hasard = Math.round(Math.random() * 11);
+        let demande = prompt("Ton nombre");
+        if (hasard == demande) {
+            alert("Good Work")
+        }
+        else {
+            alert("Not matched")
+        }
+    </script>
+</body>
+
+</html>
