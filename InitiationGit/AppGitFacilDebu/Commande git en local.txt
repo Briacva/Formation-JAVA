@@ -1,0 +1,56 @@
+/!\/!\ Le tuto suivi n'explique pas la mise du repo sur le net, le push, pull, le merge, la création de branche... 
+
+Bloc note initiation et commandes Git / GitHub
+
+Site officiel des commandes : https://git-scm.com/
+
+/!\ Les consignes qui suivent se trouvent dans un contexte particulier d'un tuto, il se peut que 
+tout ne soit pas exacte ou que des raccourcis aient été faits
+/!\ Il se peut que des mises en jours de git aient modifié les commandes et les consignes qui suivent 
+
+J'allume un terminal 
+
+// La commande 'ls' permet de voir la liste des dossiers
+// La commande 'cd nomDosier' permet de s'y rendre
+// La commande 'mkdir nomDossier' permet de créer un nouveau dossier
+
+RMQ : La commande 'cd --' permet de revenir au dossier précedent
+
+Une fois dans le dossier souhaité
+
+// La commande 'git init nomRepository' permet d'initier un repository
+// La commande 'git status' permet de vérifier ce qu'il se passe à l'instant t sur le repo
+
+/!\ A cette étape, le repo est toujours sur le local uniquement 
+
+Je crée un fichier de mon repo
+Je fais 'git status' et git m'informe qu'un nouveau fichier n'est pas encore "entré dans la boucle"
+
+// La commande 'git add nomFichier' met le nouveau fichier et changements dans la zone de transit
+// La commande 'git add .' met tous les nouveaux fichiers et changements dans la zone de transit
+// La commande 'git commit -m "message"' permet d'engager les nouveaux fichiers et changements
+// La commande 'git log' est utilisée pour afficher l'historique des différents commits effectués dans un projet
+// La commande 'git show' fonctionne comme 'git log' mais va plus loin en affichant les changements dans le détail
+
+Je modifie le texte de mon fichier html
+
+// La commande 'git status' m'informe qu'un fichier a été modifié
+
+/!\ La commande 'rm nomFichier' permet de supprimer un fichier déjà commit ou non 
+
+// La commande 'git commit -a' permet d’indexer automatiquement les fichiers qui ont été modifiés ou supprimés, 
+mais les nouveaux fichiers dont vous n’avez pas signalé la présence à Git ne sont pas affectés (qu'on a pas encore
+'git add')
+
+J'ai mon fichier coucou.html added et commited (tout est ok). J'ajoute des modifications et le add. Je git status et 
+nous voyons qu'il est modifié mais pas encore commited. Si finalement je ne veux pas ces modifications, j'utilise la commande suivante :
+
+--> // La commande 'git reset HEAD nomFichier' pour enlever les modifications
+
+A ce stade, la prise en compte des modifications dans git a été annulée mais pas les modifications en soi.
+Pour ce faire, on va revenir au dernier état du fichier à l'aide de git
+
+// La commande 'git checkout -- nomFichier permet de revenir sur un version antérieure
+// La commande 'git mv nomFichier nouveauNomFichier' permet de changer le nom d'un fichier efficacement, il faut ensuite commit pour valider
+
+

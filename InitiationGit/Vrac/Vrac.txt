@@ -1,0 +1,28 @@
+Les tutos git suivis ne sont jamais complets..
+Ainsi le lien suivant explique les commandes pour passer un repo de local à en ligne 
+
+https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+
+Concernant le push, pull.. il faut regarder sur le net 
+
+Imaginons que j'ai un projet initalisé sur le net avec une branche main et une branche dev
+
+
+Pour créer vérifier les branches existantes et celle sur laquelle je me touve je fais 'git branch'
+Pour créer ma branche je fais 'git branch nomBranche'
+Pour changer de branche je fais 'git checkout nomBranche'
+
+Pour push sur ma branche : 
+
+'git add .'
+'git commit -m "texte explicatif"'
+'git push'
+git va te dire de taper une ligne genre
+git push set upstream etc
+tu copie colle
+
+Pour pull :
+ 
+Pour merge :
+
+Par ailleurs, quand tu initie ton repo en ligne il te donne toutes les commandes importantes et necéssaires
